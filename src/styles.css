@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(190, 215, 243);
+}
+
+.expanded-toolbar {
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 3px -6px 10px 0px rgb(44, 43, 43);
+  -moz-box-shadow: 3px 2px -6px 10px rgb(44, 43, 43);
+  margin-bottom: 70px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.black-bar {
+  width:90%; 
+  border-bottom: 8px solid #000;
+  float: right;
+}
+
+.yellow-bar {
+  width:10%;
+  float: left; 
+  border-bottom: 8px solid #ffd700;
+}
+
+.drop-shadow{
+  -webkit-box-shadow: 0px -1px 4px 0px rgb(189 180 180);
+  -moz-box-shadow: 0px -1px 4px 0px rgb(189 180 180);
+
+}
+
+.mtn-logo {
+  background-image: url("data:image/png;base64,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");
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: -55px -20% -1% 25%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px -1px 4px 0px rgb(189 180 180);
+  -moz-box-shadow: 0px -1px 4px 0px rgb(189 180 180);
+}
+
+.cell:hover {
+  max-width: 1000px;
+}
+
+.rm-spacer {
+  margin-bottom: 10%
+}
+
+ .nav-content-centre {
+  width: 100%;
+  height: 20%;
+  align-content: right;
+}
+
+.spacer {
+  margin-top: 40px;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+#search {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background: url('http://cliparts.co/cliparts/rTL/n8R/rTLn8RLBc.png') no-repeat right center;
+  background-size: 20px;
+}
