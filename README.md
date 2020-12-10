@@ -2,9 +2,17 @@
 Web application developed with Angular 7, HTML5, CSS and bootsrap to serve a static content
 
 # Setup
-clone the project from the terminal or command prompt type : `$ git clone https://github.com/Guzzini/MTNClient.git`
-Angular-cli should be installed from terminal or command prompt type : `npm install -g @angular/cli`
-NPM/NodeJS should also be installed follow this link : https://nodejs.org 
+clone the project from the terminal or command prompt type :
+
+`$ git clone https://github.com/Guzzini/MTNClient.git`
+
+Angular-cli should be installed from terminal or command prompt type :
+
+`npm install -g @angular/cli`
+
+NPM/NodeJS should also be installed follow this link : 
+
+https://nodejs.org 
 
 ## Development server
 You will need to run the below command on the terminal or command prompt
