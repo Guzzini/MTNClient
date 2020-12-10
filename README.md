@@ -6,6 +6,13 @@ clone the project from the terminal or command prompt type :
 
 `$ git clone https://github.com/Guzzini/MTNClient.git`
 
+or
+
+Download the zip file to your local machine from the below URL:
+https://github.com/Guzzini/mtn-project/blob/437c3f5973e47b58481c580f996e7b9fb1e0dc07/mtn-web-app.zip
+
+Extract the folder to your prefered location and run below commands to be able to run the application.
+
 Angular-cli should be installed from terminal or command prompt type :
 
 `npm install -g @angular/cli`
